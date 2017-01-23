@@ -1,0 +1,26 @@
+[
+	{
+		"name": "Chief Delphi",
+		"link": "https://www.chiefdelphi.com/forums/portal.php"
+	},
+	{
+		"name": "Github",
+		"link": "https://github.com/"
+	},
+	{
+		"name": "School Email",
+		"link": "https://login.microsoftonline.com/"
+	},
+	{
+		"name": "Outlook",
+		"link": "https://outlook.live.com/owa/"
+	},
+	{
+		"name": "Gradebook",
+		"link": "https://xtranet.xavierhighschool.org/NetClassroom7/Forms/login.aspx?ReturnUrl=%2FNetClassroom7%2FForms%2FNCShell.aspx"
+	},
+	{
+		"name": "The Blue Alliance",
+		"link": "https://www.thebluealliance.com/"
+	}
+]

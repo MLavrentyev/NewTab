@@ -6,16 +6,24 @@
 		<link rel="stylesheet" type="text/css" href="css/stylesheet.css">
 		<script type="text/javascript" src="js/script.js" async></script>
 	</head>
-	<body>
+	<body onload="readConfigFile()">
 		<div id="header">
+			<table>
+				<tr id="topRow">
+				</tr>
+			</table>
 		</div>
 		
 		<div id="mainBody">
 			<div id="sunBlock"></div>
 			
 			<div id="centerBlock">
-				<div id="timeBlock"></div>
-				<div id="dateBlock"></div>
+				<div id="timeBlock">
+					<h1 id="time"></h1>
+				</div>
+				<div id="dateBlock">
+					<h2 id="date"></h2>
+				</div>
 			</div>
 		</div>
 	</body>
