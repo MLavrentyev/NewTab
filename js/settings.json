@@ -1,0 +1,5 @@
+settings = {
+	
+	"24hr": true,
+	"closestCity": true
+}
