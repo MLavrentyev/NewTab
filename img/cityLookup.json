@@ -133,5 +133,50 @@ cityLookup = '{\
 		"img": "tokyo.png",\
 		"lat": 35.6528,\
 		"lon": 139.8395\
+	},\
+	"Amsterdam": {\
+		"img": "amsterdam.png",\
+		"lat": 52.3702,\
+		"lon": 4.8952\
+	},\
+	"Ankara": {\
+		"img": "ankara.png",\
+		"lat": 39.9334,\
+		"lon": 32.8597\
+	},\
+	"Cairo": {\
+		"img": "cairo.png",\
+		"lat": 30.0444,\
+		"lon": 31.2357\
+	},\
+	"Copenhagen": {\
+		"img": "copenhagen.png",\
+		"lat": 55.6761,\
+		"lon": 12.5683\
+	},\
+	"Rio de Janeiro": {\
+		"img": "rio-de-janeiro.png",\
+		"lat": -22.9068,\
+		"lon": -43.1729\
+	},\
+	"Saint Petersburg": {\
+		"img": "st-petersburg.png",\
+		"lat": 59.9343,\
+		"lon": 30.3351\
+	},\
+	"Stockholm": {\
+		"img": "stockholm.png",\
+		"lat": 59.3293,\
+		"lon": 18.0686\
+	},\
+	"Toronto": {\
+		"img": "toronto.png",\
+		"lat": 43.6532,\
+		"lon": -79.3832\
+	},\
+	"Vancouver": {\
+		"img": "vancouver.png",\
+		"lat": 49.2827,\
+		"lon": -123.1207\
 	}\
 }';
