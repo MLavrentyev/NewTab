@@ -1,5 +1,5 @@
-function readConfigFile() {
-	var allLinks = JSON.parse(config);
+function readHeaderConfigFile() {
+	var allLinks = JSON.parse(headerConfig);
 	var row = document.getElementById("topRow");
 	
 	for(var i = 0; i < allLinks.length; i++) {
@@ -60,7 +60,7 @@ function setPlace() {
 }
 function startScript() {
 	setTime();
-	readConfigFile();
+	readHeaderConfigFile();
 	setPlace();
 	setInterval(setTime, 1000);
 }

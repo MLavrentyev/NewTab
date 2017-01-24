@@ -1,4 +1,4 @@
-config = '[ \
+headerConfig = '[ \
 	{\
 		"name": "Chief Delphi",\
 		"link": "https://www.chiefdelphi.com/forums/portal.php"\
