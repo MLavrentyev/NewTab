@@ -6,4 +6,5 @@ function readConfigFile() {
 		let c = row.insertCell(i);
 		c.innerHTML = "<a href=" + allLinks[i]["link"] + ">" + allLinks[i]["name"] + "</a>";
 	}
+	let finalCell = row.insertCell(i);
 }
