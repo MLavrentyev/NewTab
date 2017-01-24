@@ -61,5 +61,7 @@ body {
 	position: relative;
 }
 #time {
-	
+	font-size: 40px;
+	font-weight: 400;
+	color: white;
 }
