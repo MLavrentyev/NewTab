@@ -20,8 +20,8 @@ body {
 #header {
 	width: 100%;
 	top: 0px;
-	background: linear-gradient(#FFFFFF, #EEEEEE);
-	opacity: 0.8;
+	background: linear-gradient(#FFFFFF, #DDDDDD);
+	opacity: 0.9;
 	position: fixed;
 	z-index: 2;
 }
@@ -32,7 +32,7 @@ body {
 	width: 100%;
 }
 #topRow td {
-	padding: auto;
+	padding: 10px;
 	text-align: center;
 	width: auto;
 }
