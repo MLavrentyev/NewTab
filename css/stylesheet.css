@@ -24,6 +24,7 @@ body {
 	background: linear-gradient(#FFFFFF, #EEEEEE);
 	opacity: 0.8;
 	position: fixed;
+	z-index: 2;
 }
 #header table {
 	width: 100%;
@@ -49,6 +50,7 @@ body {
 	height: 100%;
 	width: 100%;
 	top: 0px;
+	z-index: 1;
 }
 #centerBlock {
 	position: relative;
