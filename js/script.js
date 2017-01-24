@@ -10,7 +10,7 @@ function readConfigFile() {
 }
 function setTime() {
 	var date = new Date();
-	
+
 	if(date.getMinutes() < 10) {
 		document.getElementById("time").innerHTML = date.getHours() + ":0" + date.getMinutes();
 	} else {
@@ -20,11 +20,12 @@ function setTime() {
 	let month = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"][date.getMonth()];
 	
 	document.getElementById("date").innerHTML = weekday + ", " + month + " " + date.getDate() + ", " + (date.getYear()+1900);
-	
-	setTimeout(setTime(), 60000);
 }
-
+function setPlace() {
+	
+}
 function startScript() {
 	readConfigFile();
-	setTime();
+	setPlace();
+	setInterval(setTime,1000);
 }
