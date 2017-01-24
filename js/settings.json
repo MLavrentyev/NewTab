@@ -1,5 +1,6 @@
-settings = {
-	
-	"24hr": true,
-	"closestCity": true
-}
+settings = '{\
+	"24hr": true,\
+	"closestCity": false,\
+	"farthestCity": false,\
+	"randomCity": true\
+}';

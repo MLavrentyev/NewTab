@@ -44,16 +44,31 @@ function setPlace() {
 		
 	xhr.onload = function() {
 		var minDist = 40075;
-		var minCity;
+		var theCity;
 		var response = JSON.parse(xhr.response);
-		for(var key in cities) {
-			let d = getDistanceFromLatLon(response["location"]["lat"], response["location"]["lng"], cities[key]["lat"], cities[key]["lon"]);
-			if(d < minDist) {
-				minDist = d;
-				minCity = key;
+		
+		if(JSON.parse(settings)["closestCity"]) {
+			for(var key in cities) {
+				let d = getDistanceFromLatLon(response["location"]["lat"], response["location"]["lng"], cities[key]["lat"], cities[key]["lon"]);
+				if(d < minDist) {
+					minDist = d;
+					theCity = key;
+				}
 			}
+		} else if(JSON.parse(settings)["farthestCity"]) {
+			minDist = 0;
+			for(var key in cities) {
+				let d = getDistanceFromLatLon(response["location"]["lat"], response["location"]["lng"], cities[key]["lat"], cities[key]["lon"]);
+				if(d > minDist) {
+					minDist = d;
+					theCity = key;
+				}
+			}
+		} else {
+			let keys = Object.keys(cities);
+			theCity = keys[ keys.length * Math.random() << 0];
 		}
-		let file = cities[minCity]["img"];
+		let file = cities[theCity]["img"];
 		document.body.style.backgroundImage = "url(img/cities/" + file + ")";
 	}
 	xhr.send();
