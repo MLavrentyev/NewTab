@@ -1,29 +1,137 @@
 cities = '{\
-	"Abu Dhabi": "abu-dhabi.png",\
-	"Athens": "athens.png",\
-	"Beijing": "beijing.png",\
-	"Berlin": "berlin.png",\
-	"Boston": "boston.png",\
-	"Buenos Aires": "buenos-aires.png",\
-	"Dubai": "dubai.png",\
-	"Hong Kong": "hong-kong.png",\
-	"Istanbul": "istanbul.png",\
-	"Jakarta": "jakarta.png",\
-	"Jerusalem": "jerusalem.png",\
-	"Kuala Lumpur": "kuala-lumpur.png",\
-	"London": "london.png",\
-	"Mexico City": "mexico-city.png",\
-	"Miami": "miami.png",\
-	"Minsk": "minsk.png",\
-	"Moscow": "moscow.png",\
-	"New York City": "nyc.png",\
-	"Paris": "paris.png",\
-	"Perth": "perth.png",\
-	"Pyongyang": "pyongyang.png",\
-	"Rome": "rome.png",\
-	"Seattle": "seattle.png",\
-	"Seoul": "seoul.png",\
-	"Shanghai": "shanghai.png",\
-	"Sydney": "sydney.png",\
-	"Tokyo": "tokyo.png"\
+	"Abu Dhabi": {\
+		"img": "abu-dhabi.png",\
+		"lat": 24.4539,\
+		"lon": 54.3773\
+	},\
+	"Athens": {\
+		"img": "athens.png",\
+		"lat": 37.9838,\
+		"lon": 23.7275\
+	},\
+	"Beijing": {\
+		"img": "beijing.png",\
+		"lat": 39.9042,\
+		"lon": 116.4074\
+	},\
+	"Berlin": {\
+		"img": "berlin.png",\
+		"lat": 52.5200,\
+		"lon": 13.4050\
+	},\
+	"Boston": {\
+		"img": "boston.png",\
+		"lat": 42.3601,\
+		"lon": -71.0589\
+	},\
+	"Buenos Aires": {\
+		"img": "buenos-aires.png",\
+		"lat": -34.6037,\
+		"lon": -58.3816\
+	},\
+	"Dubai": {\
+		"img": dubai.png,\
+		"lat": 25.2048,\
+		"lon": 55.2708\
+	},\
+	"Hong Kong": {\
+		"img": "hong-kong.png",\
+		"lat": 22.3964,\
+		"lon": 114.1095\
+	},\
+	"Istanbul": {\
+		"img": "istanbul.png",\
+		"lat": 41.0082,\
+		"lon": 28.9784\
+	},\
+	"Jakarta": {\
+		"img": "jakarta.png",\
+		"lat": -6.1745,\
+		"lon": 106.8227\
+	},\
+	"Jerusalem": {\
+		"img": "jerusalem.png",\
+		"lat": 31.7683,\
+		"lon": 35.2137\
+	},\
+	"Kuala Lumpur": {\
+		"img": "kuala-lumpur.png",\
+		"lat": 3.1390,\
+		"lon": 101.6869\
+	},\
+	"London": {\
+		"img": "london.png",\
+		"lat": 51.5074,\
+		"lon": -0.1278\
+	},\
+	"Mexico City": {\
+		"img": "mexico-city.png",\
+		"lat": 19.4326,\
+		"lon": -99.1332\
+	},\
+	"Miami": {\
+		"img": "miami.png",\
+		"lat": 25.7617,\
+		"lon": -80.1918\
+	},\
+	"Minsk": {\
+		"img": "minsk.png",\
+		"lat": 53.9045,\
+		"lon": 27.5615\
+	},\
+	"Moscow": {\
+		"img": "moscow.png",\
+		"lat": 55.7558,\
+		"lon": 37.6173\
+	},\
+	"New York City": {\
+		"img": "nyc.png",\
+		"lat": 40.7128,\
+		"lon": -74.0059\
+	},\
+	"Paris": {\
+		"img": "paris.png",\
+		"lat": 48.8566,\
+		"lon": 2.3522\
+	},\
+	"Perth": {\
+		"img": "perth.png",\
+		"lat": -31.9505,\
+		"lon": 115.8605\
+	},\
+	"Pyongyang": {\
+		"img": "pyongyang.png",\
+		"lat": 39.0392,\
+		"lon": 125.7625\
+	},\
+	"Rome": {\
+		"img": "rome.png",\
+		"lat": 41.9028,\
+		"lon": 12.4964\
+	},\
+	"Seattle": {\
+		"img": "seattle.png",\
+		"lat": 47.6062,\
+		"lon": -122.3321\
+	},\
+	"Seoul": {\
+		"img": "seoul.png",\
+		"lat": 37.5665,\
+		"lon": 126.9780\
+	},\
+	"Shanghai": {\
+		"img": "shanghai.png",\
+		"lat": 31.2304,\
+		"lon": 121.4737\
+	},\
+	"Sydney": {\
+		"img": "sydney.png",\
+		"lat": -33.8688,\
+		"lon": 151.2093\
+	},\
+	"Tokyo": {\
+		"img": "tokyo.png",\
+		"lat": 35.6528,\
+		"lon": 139.8395\
+	}\
 }';
