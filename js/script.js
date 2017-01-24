@@ -19,7 +19,7 @@ function setTime() {
 	let weekday = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"][date.getDay()];
 	let month = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"][date.getMonth()];
 	
-	document.getElementById("date").innerHTML = weekday + ", " + month + " " + date.getDate() + ", " + date.getYear();
+	document.getElementById("date").innerHTML = weekday + ", " + month + " " + date.getDate() + ", " + (date.getYear()+1900);
 	
 	setTimeout(setTime(), 60000);
 }
