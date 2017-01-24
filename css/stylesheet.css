@@ -59,9 +59,19 @@ body {
 }
 #timeBlock {
 	position: relative;
+	display: block;
+	top: 50px;
 }
 #time {
+	font-size: 125px;
+	font-weight: 400;
+	color: white;
+	text-align: center;
+}
+
+#date {
 	font-size: 40px;
 	font-weight: 400;
 	color: white;
+	text-align: center;
 }
