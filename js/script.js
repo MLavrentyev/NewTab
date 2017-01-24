@@ -16,6 +16,11 @@ function setTime() {
 	} else {
 		document.getElementById("time").innerHTML = date.getHours() + ":" + date.getMinutes();
 	}
+	let weekday = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"][date.getDay()];
+	let month = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"][date.getMonth()];
+	
+	document.getElementById("date").innerHTML = weekday + ", " + month + " " + date.getDate() + ", " + date.getYear();
+	
 	setTimeout(setTime(), 60000);
 }
 
