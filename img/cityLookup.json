@@ -1,4 +1,4 @@
-cities = '{\
+cityLookup = '{\
 	"Abu Dhabi": {\
 		"img": "abu-dhabi.png",\
 		"lat": 24.4539,\
@@ -30,7 +30,7 @@ cities = '{\
 		"lon": -58.3816\
 	},\
 	"Dubai": {\
-		"img": dubai.png,\
+		"img": "dubai.png",\
 		"lat": 25.2048,\
 		"lon": 55.2708\
 	},\
