@@ -59,7 +59,8 @@ function setPlace() {
 	xhr.send();
 }
 function startScript() {
+	setTime();
 	readConfigFile();
 	setPlace();
-	setInterval(setTime,1000);
+	setInterval(setTime, 1000);
 }
