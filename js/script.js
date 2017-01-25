@@ -10,12 +10,31 @@ function readHeaderConfigFile() {
 }
 function setTime() {
 	var date = new Date();
-
-	if(date.getMinutes() < 10) {
-		document.getElementById("time").innerHTML = date.getHours() + ":0" + date.getMinutes();
-	} else {
-		document.getElementById("time").innerHTML = date.getHours() + ":" + date.getMinutes();
+	var hours = date.getHours();
+	var ampm = "am";
+	
+	if(date.getHours()/12 > 1) {
+		ampm = "pm";
+		hours = hours % 12;
 	}
+	var finalString = hours;	
+	
+	if(date.getMinutes() < 10) {
+		finalString += ":0" + date.getMinutes();
+	} else {
+		finalString += ":" + date.getMinutes();
+	}
+	
+	document.getElementById("time").innerHTML = finalString;
+	
+	if(ampm == "pm") {
+		document.getElementById("am").style.color = "#555555";
+		document.getElementById("pm").style.color = "#FFFFFF";
+	} else {
+		document.getElementById("am").style.color = "#FFFFFF";
+		document.getElementById("pm").style.color = "#555555";
+	}
+	// Set weekday
 	let weekday = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"][date.getDay()];
 	let month = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"][date.getMonth()];
 	
