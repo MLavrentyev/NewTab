@@ -65,9 +65,17 @@ function setPlace() {
 	var cities = JSON.parse(cityLookup);
 	
 	var xhr = new XMLHttpRequest();
+	xhr.timeout = 1000;
 	xhr.open("POST", "https://www.googleapis.com/geolocation/v1/geolocate?key=AIzaSyBjRRMtqV4VdybDPjr-tNObKI6qbAukdYE");
 	xhr.setRequestHeader("key", "AIzaSyBjRRMtqV4VdybDPjr-tNObKI6qbAukdYE");
-		
+
+	xhr.ontimeout = function() {
+		let keys = Object.keys(cities);
+		theCity = keys[ keys.length * Math.random() << 0];
+		let file = cities[theCity]["img"];
+		document.body.style.backgroundImage = "url(img/cities/" + file + ")";
+	}
+	
 	xhr.onload = function() {
 		var minDist = 40075;
 		var theCity;
