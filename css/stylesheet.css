@@ -77,8 +77,9 @@ body {
 }
 #ampmDisplay {
 	position: relative;
-	top: -60px;
+	top: -70px;
 	right: -420px;
+	display: block;
 }
 #ampmDisplay p {
 	margin: 0;
@@ -87,6 +88,7 @@ body {
 	display: inline-block;
 	float: left;
 	clear: left;
+	font-size: 20px;
 }
 
 #date {
