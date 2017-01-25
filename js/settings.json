@@ -1,6 +1,6 @@
 settings = '{\
-	"24hr": true,\
-	"closestCity": false,\
+	"24hr": false,\
+	"closestCity": true,\
 	"farthestCity": false,\
-	"randomCity": true\
+	"randomCity": false\
 }';

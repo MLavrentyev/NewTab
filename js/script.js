@@ -13,9 +13,14 @@ function setTime() {
 	var hours = date.getHours();
 	var ampm = "am";
 	
-	if(date.getHours()/12 > 1) {
+	if(date.getHours()/12 > 1 && !JSON.parse(settings)["24hr"]) {
 		ampm = "pm";
 		hours = hours % 12;
+	} 
+	if(!JSON.parse(settings)["24hr"]) {
+		document.getElementById("ampmDisplay").style.display = "block";
+	}else if(JSON.parse(settings)["24hr"]) {
+		document.getElementById("ampmDisplay").style.display = "none";
 	}
 	var finalString = hours;	
 	
@@ -34,6 +39,7 @@ function setTime() {
 		document.getElementById("am").style.color = "#FFFFFF";
 		document.getElementById("pm").style.color = "#555555";
 	}
+	
 	// Set weekday
 	let weekday = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"][date.getDay()];
 	let month = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"][date.getMonth()];
