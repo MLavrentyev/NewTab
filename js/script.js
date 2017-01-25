@@ -11,12 +11,13 @@ function readHeaderConfigFile() {
 function setTime() {
 	var date = new Date();
 	var hours = date.getHours();
-	var ampm = "am";
+	var ampm = hours>11 ? "pm" : "am";
 	
 	if(date.getHours()/12 > 1 && !JSON.parse(settings)["24hr"]) {
-		ampm = "pm";
 		hours = hours % 12;
 	} 
+	hours = hours==0? 12:hours;
+	
 	if(!JSON.parse(settings)["24hr"]) {
 		document.getElementById("ampmDisplay").style.display = "block";
 	}else if(JSON.parse(settings)["24hr"]) {
