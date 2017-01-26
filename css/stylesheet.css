@@ -95,6 +95,12 @@ body {
 	
 	display: inline-block;
 }
+#date {
+	color: white;
+	font-size: 30px;
+	font-style: italic;
+	text-align: center;
+}
 
 #settingsButton {
 	position: fixed;
