@@ -57,6 +57,7 @@ body {
 	margin-left: -250px;
 	top: 50%;
 	margin-top: -200px;
+	text-align: center;
 	
 	width: 500px;
 	height: 300px;
@@ -65,9 +66,11 @@ body {
 }
 
 #timeBlock {	
-	margin: 50px auto;
+	margin: auto;
+	margin-top: 55px;
+	width: auto;
 	height: 145.6px;
-	vertical-align: bottom;
+	
 	display: inline-block;
 }
 #time {
@@ -78,7 +81,6 @@ body {
 	display: inline-block;
 }
 #ampmDisplay {
-	display: inline;
 	margin: 0 auto;
 	width: 32px;
 	float: right;
