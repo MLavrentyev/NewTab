@@ -63,42 +63,35 @@ body {
 	background-color: black;
 	opacity: 0.75;
 }
-#timeBlock {
-	position: relative;
-	display: block;
-	top: 50px;
+
+#timeBlock {	
+	margin: 50px auto;
+	height: 145.6px;
+	vertical-align: bottom;
+	display: inline-block;
 }
 #time {
+	color: white;
 	font-size: 125px;
 	font-weight: 400;
-	color: white;
-	text-align: center;
-	margin-bottom: 0px;
+	margin: 0 auto;
+	display: inline-block;
 }
 #ampmDisplay {
+	display: inline;
+	margin: 0 auto;
+	width: 32px;
+	float: right;
 	position: relative;
-	top: -70px;
-	right: -420px;
-	display: block;
+	top: 75px;
+	right: -10px;
 }
 #ampmDisplay p {
-	margin: 0;
-	color: white;
+	margin: 0px;
 	font-weight: 700;
-	display: inline-block;
-	float: left;
-	clear: left;
 	font-size: 20px;
-}
-
-#date {
-	font-size: 30px;
-	font-weight: 400;
-	font-style: italic;
-	color: white;
-	text-align: center;
 	
-	margin-top: 10px;
+	display: inline-block;
 }
 
 #settingsButton {
@@ -109,5 +102,4 @@ body {
 	z-index: 2;
 	height: 50px;
 	width: 50px;
-	color: white;
 }
