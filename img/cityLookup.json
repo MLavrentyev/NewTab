@@ -178,5 +178,10 @@ cityLookup = '{\
 		"img": "vancouver.png",\
 		"lat": 49.2827,\
 		"lon": -123.1207\
+	},\
+	"Chicago": {\
+		"img": "chicago.png",\
+		"lat": 41.8818,\
+		"lon": -87.6232\
 	}\
 }';
