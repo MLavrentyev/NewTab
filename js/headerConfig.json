@@ -16,8 +16,8 @@ headerConfig = '[ \
 		"link": "https://outlook.live.com/owa/"\
 	},\
 	{\
-		"name": "Gradebook",\
-		"link": "https://xtranet.xavierhighschool.org/NetClassroom7/Forms/login.aspx?ReturnUrl=%2FNetClassroom7%2FForms%2FNCShell.aspx"\
+		"name": "OnCampus",\
+		"link": "https://xavierhighschool.myschoolapp.com/app#login"\
 	},\
 	{\
 		"name": "The Blue Alliance",\
