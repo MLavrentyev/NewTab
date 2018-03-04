@@ -113,7 +113,15 @@ function setPlace() {
 		let file = cities[theCity]["img"];
 		document.body.style.backgroundImage = "url(img/cities/" + file + ")";
 	}
-	xhr.send();
+    if(JSON.parse(settings)["randomCity"]) {
+        let keys = Object.keys(cities);
+        theCity = keys[ keys.length * Math.random() << 0];
+        let file = cities[theCity]["img"];
+		document.body.style.backgroundImage = "url(img/cities/" + file + ")";
+    }
+    else {
+	   xhr.send();
+    }
 }
 function startScript() {
 	setTime();
