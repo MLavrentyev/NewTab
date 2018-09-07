@@ -8,20 +8,20 @@ headerConfig = '[ \
 		"link": "https://github.com/"\
 	},\
 	{\
-		"name": "School Email",\
-		"link": "https://login.microsoftonline.com/"\
-	},\
-	{\
 		"name": "Outlook",\
 		"link": "https://outlook.live.com/owa/"\
 	},\
 	{\
-		"name": "OnCampus",\
-		"link": "https://xavierhighschool.myschoolapp.com/app#login"\
+		"name": "Gmail",\
+		"link": "https://gmail.com"\
 	},\
 	{\
-		"name": "The Blue Alliance",\
-		"link": "https://www.thebluealliance.com/"\
+		"name": "Brown ASK",\
+		"link": "https://ask.brown.edu/"\
+	},\
+	{\
+		"name": "Courses@Brown",\
+		"link": "https://cab.brown.edu/"\
 	},\
 	{\
 		"name": "Jetpunk",\
